@@ -1,0 +1,40 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="8dp">
+
+    <RelativeLayout
+        android:layout_width="269dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true">
+
+        <ImageView
+            android:id="@+id/profile_image"
+            android:layout_width="49dp"
+            android:layout_height="49dp"
+            android:layout_marginLeft="5dp"
+            android:src="@drawable/iconfinder_chat_profile2"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+
+        <TextView
+            android:id="@+id/show_message"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginLeft="6dp"
+            android:layout_toRightOf="@id/profile_image"
+            android:background="@drawable/background_left"
+            android:paddingStart="18dp"
+            android:paddingLeft="18dp"
+            android:paddingTop="18dp"
+            android:paddingEnd="38dp"
+            android:paddingRight="38dp"
+            android:paddingBottom="8dp"
+            android:text="hi newbie how r u "
+            android:textColor="@color/white"
+            android:textSize="18dp" />
+    </RelativeLayout>
+</RelativeLayout>
